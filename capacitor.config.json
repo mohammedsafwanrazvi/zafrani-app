@@ -1,0 +1,27 @@
+{
+  "appId": "com.zafranizeera.zafrani",
+  "appName": "Zafrani",
+  "webDir": "www",
+  "server": {
+    "url": "https://zafranizeera.com",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f172a",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0f172a",
+      "style": "DARK"
+    }
+  }
+}
