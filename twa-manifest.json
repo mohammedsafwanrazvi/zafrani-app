@@ -1,0 +1,20 @@
+{
+  "packageId": "com.zafranizeera.zafrani",
+  "host": "zafranizeera.com",
+  "name": "Zafrani",
+  "launcherName": "Zafrani",
+  "themeColor": "#0f172a",
+  "navigationColor": "#0f172a",
+  "backgroundColor": "#0f172a",
+  "startUrl": "/",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 3,
+  "enableNotifications": true,
+  "signingKey": {
+    "path": "./release.jks",
+    "alias": "upload"
+  },
+  "minSdkVersion": 24,
+  "targetSdkVersion": 34,
+  "enabled": true
+}
